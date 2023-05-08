@@ -1,6 +1,7 @@
 package net.moxg.souls;
 
 import net.fabricmc.api.ModInitializer;
+import net.moxg.souls.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +11,7 @@ public class Souls implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 
 	}
 }
